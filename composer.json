@@ -1,0 +1,22 @@
+{
+	"name": "milessummers/silverstripe-featuredpages",
+	"description": "An extension that adds selected pages to be feature on the homepage",
+	"type": "silverstripe-module",
+	"keywords": ["silverstripe"],
+	"homepage": "http://github.com/MilesSummers/silverstripe-featuredpages",
+	"authors": [
+	{
+		"name": "Miles Summers",
+		"email": "milessummers@secasa.com.au"
+	}
+	],
+	"require":
+	{
+		"composer/installers": "*",
+		"silverstripe/framework": "3.1.*",
+		"silverstripe/cms": "3.1.*"
+	},
+	"extra": {
+		"installer-name": "featuredpages"
+	}
+}
